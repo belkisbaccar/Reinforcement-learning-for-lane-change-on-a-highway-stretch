@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-12-29 10:24:32 by Eclipse SUMO netedit Version 1.11.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="DEFAULT_VEHTYPE" vClass="passenger" carFollowModel="IDM"/>
+    <flow id="flow_0" begin="0.00" departLane="random" departSpeed="30.00" from="E4" to="E6" end="600.00" vehsPerHour="3000.00"/>
+    <flow id="flow_1" begin="0.00" departLane="random" departSpeed="13.80" from="E7" to="E8" end="600.00" vehsPerHour="500.00"/>
+    <flow id="flow_2" begin="0.00" departLane="random" departSpeed="30.00" from="E4" to="E8" end="600.00" vehsPerHour="1000.00"/>
+    <flow id="flow_3" begin="0.00" departLane="random" departSpeed="30.00" from="E7" to="E6" end="600.00" vehsPerHour="1000.00"/>
+</routes>
