@@ -6,9 +6,9 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="C:\Users\Bolbol\Desktop\Projet RL\environement\Network_highway.net.xml"/>
-        <route-files value="C:\Users\Bolbol\Desktop\Projet RL\environement\Deman_highway.rou.xml"/>
-        <gui-settings-file value="C:\Users\Bolbol\Desktop\Projet RL\environement\view.xml"/>
+        <net-file value="Network_highway.net.xml"/>
+        <route-files value="Deman_highway.rou.xml"/>
+       <gui-settings-file value="view.xml"/> 
     </input>
 <traci_server>
 <remote-port value="8873"/>

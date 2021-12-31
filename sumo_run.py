@@ -30,12 +30,11 @@ while traci.simulation.getMinExpectedNumber() > 0:
         traci.simulationStep();
 
         vehicles=traci.vehicle.getIDList(); # get list of vehicles from the simulation
+        print(vehicles)
 # for each vehicle we'll get the cooredinates, speed , lane ....
         for i in range(0,len(vehicles)):
 
-                #Function descriptions
-                #https://sumo.dlr.de/docs/TraCI/Vehicle_Value_Retrieval.html
-                #https://sumo.dlr.de/pydoc/traci._vehicle.html#VehicleDomain-getSpeed
+                
                 vehid = vehicles[i]
                 x, y = traci.vehicle.getPosition(vehicles[i])
                 coord = [x, y]
@@ -87,6 +86,7 @@ while traci.simulation.getMinExpectedNumber() > 0:
                 if vehicles[i]=='veh2':
                         traci.vehicle.setSpeedMode('veh2',0)
                         traci.vehicle.setSpeed('veh2',NEWSPEED)
+                        
 
 
                 ##------------------------------------------------------##
